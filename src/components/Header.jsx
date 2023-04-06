@@ -8,7 +8,7 @@ const Header = () => {
   const {setUserInfo, userInfo} = useContext(UserContext);
 
   useEffect(() => {
-    fetch('http://localhost:4500/profile', {
+    fetch('https://techblog-api-m083.onrender.com/profile', {
       credentials: 'include',
     }).then(response => {
       response.json().then(userInfo => {
@@ -18,7 +18,7 @@ const Header = () => {
   }, []);
 
   const logoutUser = () => {
-    fetch('http://localhost:4500/logout', {
+    fetch('https://techblog-api-m083.onrender.com/logout', {
       credentials: 'include',
       method: 'POST',
     });

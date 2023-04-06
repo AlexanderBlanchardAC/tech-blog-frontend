@@ -19,7 +19,7 @@ const DeletePost = () => {
  
  
     useEffect(() => {
-        fetch('http://localhost:4500/post/'+id)
+        fetch('https://techblog-api-m083.onrender.com/post/'+id)
             .then(response => {
                     response.json().then(postInfo => {
                         setTitle(postInfo.title);
@@ -45,7 +45,7 @@ const DeletePost = () => {
  
     const clickDeletePost = async () => {
     
-     fetch('http://localhost:4500/post' +id, {
+     fetch('https://techblog-api-m083.onrender.com:4500/post' +id, {
             method: 'DELETE',
            
             credentials: 'include',

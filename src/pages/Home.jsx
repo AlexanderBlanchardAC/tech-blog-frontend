@@ -7,7 +7,7 @@ const Home = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:4500/post').then(response => {
+    fetch('https://techblog-api-m083.onrender.com/post').then(response => {
       response.json().then(posts => {
         setPosts(posts);
       });

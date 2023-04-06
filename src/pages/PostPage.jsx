@@ -13,7 +13,7 @@ const PostPage = () => {
     const {id} = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:4500/post/${id}`)
+        fetch(`https://techblog-api-m083.onrender.com/post/${id}`)
             .then(response => {
                 response.json().then(postInfo => {
                     setPostInfo(postInfo);
@@ -43,7 +43,7 @@ const PostPage = () => {
         )}
         <div className="post-page-image-container">
             { postInfo.cover ? (
-           <img className="post-image" src={`http://localhost:4500/${postInfo.cover}`} alt="blog post image" />
+           <img className="post-image" src={`https://techblog-api-m083.onrender.com/${postInfo.cover}`} alt="blog post image" />
             ):(<img className="post-image" src={img} alt="postImage" />)}
         </div>
         <div className="content" dangerouslySetInnerHTML={{__html:postInfo.content}} />

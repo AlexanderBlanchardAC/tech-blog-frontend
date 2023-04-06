@@ -15,7 +15,7 @@ const Register = () => {
 
   const register = async(e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:4500/register', {
+    const response = await fetch('https://techblog-api-m083.onrender.com/register', {
       method: 'POST',
       body: JSON.stringify({ username, password }),
       headers: {'Content-Type': 'application/json'},
