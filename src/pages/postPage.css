@@ -1,0 +1,92 @@
+.post-page {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.post-page-title {
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-page-author {
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 0.8rem;
+}
+
+.post-page-date {
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-right: 6px;
+}
+
+.post-page-year {
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-right: 7px;
+   
+}
+
+.post-page-time {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.dash {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.post-page-data {
+    margin-bottom: 2px;
+    font-weight: 100;
+    color: lightgrey;
+}
+
+.allow-edit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: darkslategray;
+}
+
+.allow-edit a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: darkslategray;
+    border: 1px solid darkslategray;
+    border-radius: 4px;
+    padding: 2px 4px;
+
+}
+
+.allow-edit a:hover {
+    color: gold;
+}
+
+.post-page-image-container {
+    height: 300px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.post-image {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+}

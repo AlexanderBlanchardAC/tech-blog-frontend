@@ -1,0 +1,67 @@
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    align-items: center;
+  }
+  
+  .main-title a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .header-navigation {
+    display: flex;
+    gap: 20px;
+  
+  }
+
+  .create-post {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: whiteSmoke;
+    font-size:1.1rem;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .logout-user {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .logout-user:hover {
+    cursor: pointer;
+  }
+
+  .login-btn,
+  .register-btn {
+    border: 2px solid whitesmoke;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 10px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .login-btn:hover,
+  .register-btn:hover {
+    cursor: pointer;
+  }
