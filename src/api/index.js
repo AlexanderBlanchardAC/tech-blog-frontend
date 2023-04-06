@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-const url = 'http://localhost:4500/posts';
+const url = 'https://techblog-api-m083.onrender.com/posts';
 
 export const deletePost = (id) => axios.delete(`${url}/${id}`);
