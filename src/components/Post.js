@@ -13,7 +13,7 @@ const Post = ({ _id, title, cover, summary, createdAt, author}) => {
         
         {cover ? (
         <Link to={`/post/${_id}`}>
-          <img src={'https://techblog-api-m083.onrender.com:4500/'+cover} alt="postImage" /> 
+          <img src={'https://techblog-api-m083.onrender.com/'+cover} alt="postImage" /> 
         </Link>
         ): (
           <Link to={`/post/${_id}`}>
