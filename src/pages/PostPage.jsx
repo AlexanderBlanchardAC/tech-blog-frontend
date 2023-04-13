@@ -13,7 +13,7 @@ const PostPage = () => {
     const {id} = useParams();
 
     useEffect(() => {
-        fetch(`https://techblog-api-m083.onrender.com/post/${id}`)
+        fetch(`https://techblog-m083.onrender.com/post/${id}`)
             .then(response => {
                 response.json().then(postInfo => {
                     setPostInfo(postInfo);
