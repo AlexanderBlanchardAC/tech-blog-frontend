@@ -45,7 +45,7 @@ const DeletePost = () => {
  
     const clickDeletePost = async () => {
     
-     fetch('https://techblog-api-m083.onrender.com:4500/post' +id, {
+     fetch('https://techblog-api-m083.onrender.com/post' +id, {
             method: 'DELETE',
            
             credentials: 'include',
