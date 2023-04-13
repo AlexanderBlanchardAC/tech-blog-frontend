@@ -47,7 +47,6 @@ const DeletePost = () => {
     
      fetch('https://techblog-api-m083.onrender.com/post' +id, {
             method: 'DELETE',
-           
             credentials: 'include',
         })
         

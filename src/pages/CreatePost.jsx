@@ -35,7 +35,7 @@ const CreatePost = () => {
         data.set('file', files[0]);
         e.preventDefault();
        
-        const response = await fetch('https://techblog-api-m083.onrender.com/post', {
+        const response = await fetch('https://techblog-m083.onrender.com/post', {
             method: 'POST',
             body: data,
             credentials:'include',
